@@ -1,0 +1,56 @@
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+
+# Logs and Locks
+*.lock
+*.log
+*.pyc
+*.swp
+.buildlog/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter repo-specific
+/bin/cache/
+/bin/mingit/
+/dev/benchmarks/mega_gallery/
+/dev/bots/.recipe_deps
+/dev/bots/android_tools/
+/dev/docs/doc/
+/dev/docs/lib/
+/dev/docs/pubspec.yaml
+/packages/flutter/coverage/
+/secrets.json
+version
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.DS_Store
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+.flutter-plugins-dependencies
+ios/Flutter/flutter_export_environment.sh
